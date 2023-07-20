@@ -159,5 +159,5 @@ function Generate-PingResultsHTML {
     Write-Host "Le ping est terminé. Les résultats ont été enregistrés dans $OutputFile."
 }
 
-# Utilisation de la fonction
+# Utilisation de la fonction et ajout d'une image dans le haut du rapport
 Generate-PingResultsHTML -CompanyImageFile "ping.png" -OutputFile "ping_results.html"
